@@ -1,0 +1,829 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.first
+{
+    height: 60px;
+    width: 100%;
+}
+ .first .firstimg
+{
+    width: 100%;
+    height: 450px;
+    border: 1px solid hsl(356, 100%, 66%);
+    background-color: hsl(356, 100%, 66%);
+    background-image: linear-gradient(to right ,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0px 0px 0px 100px;
+}
+.first .firstimg .hidd
+{
+    display: none;
+}
+
+.first .firstimg .hidd1
+{
+    margin-top: -1370px;
+    padding-left: 10px;
+    margin-left: -380px;
+    margin-bottom: 100px;
+}
+.first .firstimg .baronly
+{
+    display: flex;
+    margin-top: -550px;
+}
+.first .firstimg img
+{
+    display: block;
+}
+.fa-bars
+{
+    display: none;
+}
+.first .firstimg .left_item h3
+{
+font-weight: 600;
+font-size: 35px;
+font-family:  'Overpass', sans-serif;
+color: hsl(0, 0%, 100%);
+margin-left: 100px;
+text-transform: capitalize;
+padding-top: 7px;
+padding-right: 20px;
+}
+.first .firstimg .right_item .navitems 
+{
+    display: flex;
+    padding-top: 40px;
+}
+.first .firstimg .right_item .navitems li 
+{
+ list-style-type: none;
+}
+.first .firstimg .right_item .navit
+{
+    display: none;
+}
+.first .firstimg .right_item .navitems li a
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.first .firstimg .baronly  .right_item .nav
+{
+    display: none;
+    width: 100%;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 200px;
+    top: 10vh;
+} 
+.first .firstimg .baronly  .right_item .nav
+{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width:12%;
+    list-style-type: none;
+    height: 17%;
+    padding:10px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.first .firstimg .baronly .right_item .nav li
+{
+    margin: 10px 0px;
+}
+.first .firstimg .baronly .right_item .nav li a
+{
+color:rgb(112, 108, 108);
+padding: 30px;
+margin: 30px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 16px;
+font-weight: 300;
+text-decoration: none;
+}
+.first .firstimg .baronly .right_item .nav li a:hover
+{
+    color: black;
+}
+.first .firstimg .baronly .right_item .nav.active
+{
+     display: flex;
+}
+ .first .firstimg .right_item .navitems li a:hover
+    {
+        text-decoration: underline;
+    }
+.first .firstimg .right_item .navitems i
+{
+color:hsl(0, 0%, 100%);
+font-size: 16px;
+padding:6px 25px 0px 5px;
+}
+
+.first .firstimg .rigth .navitems 
+{
+    list-style-type: none;   
+    display: flex;
+    padding: 30px;
+}
+.first .firstimg .rigth .navitems 
+{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 370px;
+}
+.first .firstimg .rigth .navitems li a
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding:30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+ .list
+{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+.list:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-chevron-down:hover
+{
+    transform: rotate(180deg);
+}
+.first .firstimg .rigth .navitems li .a2
+{
+border:1px solid hsl(0, 0%, 100%);
+border-radius: 20px;
+padding:8px 21px;
+background-color: hsl(0, 0%, 100%);
+font-weight: 300;
+color:hsl(356, 100%, 66%);
+}
+.first .firstimg .cent h1
+{
+    color:hsl(0, 0%, 100%);
+    font-weight: 450;
+    font-size: 45px;
+   text-align: center;
+   padding-top: 15px;
+    text-transform: capitalize;
+    font-family:'Overpass', sans-serif;
+}
+.first .firstimg .cent p
+{
+    color:hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family:'Ubuntu', sans-serif ;
+}
+.first .firstimg .cent .a3
+{
+text-decoration: none;
+border:1px solid hsl(0, 0%, 100%);
+border-radius: 20px;
+padding:8px 13px;
+background-color: hsl(0, 0%, 100%);
+font-weight: 400;
+font-family:'Ubuntu', sans-serif ;
+text-transform: capitalize;
+color:hsl(356, 100%, 66%);
+margin: 15px;
+align-items: center;
+}
+.first .firstimg .cent .a4
+{
+text-decoration: none;
+border:1px solid hsl(0, 0%, 100%);
+border-radius: 20px;
+padding:9px 15px;
+font-weight: 400;
+text-transform: capitalize;
+font-family:'Ubuntu', sans-serif ;
+color:hsl(0, 0%, 100%);
+align-items: center;
+}
+.first .firstimg .cent .a3:hover,.first .firstimg .rigth .navitems li .a2:hover
+{
+    cursor: pointer;
+    background-color:hsl(355, 100%, 74%) ;
+    border: 0px;
+    color:hsl(0, 0%, 100%);
+}
+.first .firstimg .cent .a4:hover
+{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    border: 0px;
+    color:hsl(355, 100%, 74%);
+}
+.first .firstimg .cent 
+{
+    text-align: center;
+}
+.sec
+{
+    width: 100%;
+}
+.sec h2
+{
+    font-size: 35px;
+    color: hsl(208, 49%, 24%);
+    font-family:'Overpass', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: capitalize;
+}
+.sec .flox
+{
+    display:flex;
+}
+.sec .flox .klam
+{
+    padding: 70px 170px;
+}
+.sec .flox .klam h4
+{
+    font-size: 25px;
+    color: hsl(208, 49%, 24%);
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 600;
+    
+}
+.sec .flox .klam p
+{
+    color: hsl(207, 10%, 44%);
+    font-size: 19px;
+    font-weight: lighter;
+    font-family:'Ubuntu', sans-serif ;
+    letter-spacing: 0.2px;
+    padding-bottom: 30px;
+}
+.sec .flox .secimg
+{
+    
+    height: 100%;
+    padding-top: 50px;
+     margin-top: -150px;
+     margin-right: -10px;
+}
+.sec .flox .secimgm
+{
+    display: none;
+}
+.third
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid hsl(237, 17%, 21%);
+    border-radius: 0px 90px 0px 90px;
+    padding-top: 100px;
+    margin-top: 100px;
+    background-image:linear-gradient(to right ,hsl(237, 17%, 21%) , hsl(237, 23%, 32%));
+}
+.third .koob img
+{
+     margin-top: -100px;
+    margin-left: -205px;
+}
+.third .koob2
+{
+    display: none;
+}
+.third .flox2
+{
+    display:flex;
+}
+
+.third img
+{
+    margin-left: 100px;
+    margin-top: -450px;
+}
+.third .klam2
+{
+    padding:0px 50px;
+    margin: 0px 120px;
+    margin-top: -300px;
+}
+.third .klam2 h2
+{
+    font-size: 30px;
+    font-weight: 600;
+    color:hsl(0, 0%, 100%);
+    font-family:'Overpass', sans-serif;
+}
+.third .klam2 p
+{
+    font-size: 20px;
+    font-weight: 400;
+    color:hsl(198, 10%, 74%);
+    font-family:'Ubuntu', sans-serif  ;
+}
+.four
+{
+    width: 100%;
+}
+.four .flox3
+{
+    display:flex;
+}
+.four .flox3 .fourimg1
+{
+    display: none;
+}
+.four .flox3 .klam3
+{
+    padding: 70px 170px;
+    margin: 200px 120px;
+}
+.four .flox3 .klam3 h4
+{
+    font-size: 25px;
+    color: hsl(208, 49%, 24%);
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 600;
+    
+}
+.four .flox3 .klam3 p
+{
+    color: hsl(208, 6%, 61%);
+    font-size: 17px;
+    font-weight: lighter;
+    font-family:'Ubuntu', sans-serif ;
+    letter-spacing: 0.2px;
+    padding-bottom: 30px;
+}
+.four .flox3 .fourimg2
+{
+    width: 50%;
+    height: 100%;
+    padding-top: 70px;
+    margin-top: 30px;
+    margin-left: -280px;
+}
+.footer
+{
+    border:1px solid hsl(240, 10%, 16%);
+    height: 500px;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0px 130px 0px 0px;
+    background-color: hsl(240, 10%, 16%);
+}
+.footer .bigfooter .ul1
+{
+    display: flex;
+    flex-direction: row;
+}
+.footer .bigfooter .ul1 li 
+{
+    list-style-type: none;
+    color:hsl(210, 4%, 71%);
+   padding: 70px 80px 30px 140px;
+   margin-left: 20px;
+   font-family:'Ubuntu', sans-serif ;
+   font-size: 19px;
+}
+.footer .bigfooter .ul1 li a
+{
+    text-decoration: none;
+    color:hsl(206, 100%, 99%);
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Ubuntu', sans-serif ;
+}
+
+.footer h2
+{
+    font-weight: 600;
+    font-size: 30px;
+    font-family:  'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin:70px;
+    padding-left: 100px;
+    text-transform: capitalize;
+}
+.footer .bigfooter .foot1
+{
+    display: flex;
+    flex-direction: row;
+}
+.footer .bigfooter .foot1 li
+{
+list-style-type: none;
+color:hsl(210, 4%, 71%);
+padding-right: 50px;
+padding-left: 159px;
+font-size: 12px;
+line-height: 25px;
+font-family:'Ubuntu', sans-serif ;
+}
+.footer .bigfooter .foot1 li a
+{
+    color:hsl(210, 4%, 71%) ;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer .bigfooter .foot1 li a:hover,.footer .bigfooter .ul1 li a:hover
+{
+    border-bottom: 1px solid #fff;
+}
+@media(max-width:600px)
+{
+    body
+    {
+        width: 600px;
+    }
+    .first
+    {
+        flex-direction: column;
+        width:100%;
+        font-size: 80%;
+    }
+    .first .firstimg .baronly .left_item h3
+    {
+        margin-left: 10px;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .first .firstimg .baronly
+    {
+        width: 100%;
+    }
+    .first .firstimg .hidd1
+    {
+        display: none;
+    }
+    .first .firstimg .hidd
+    {
+        display: block;
+    }
+    .first .firstimg .hidd
+    {
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+    .first .firstimg .baronly .fa-bars{
+        display: block;
+        font-size: 2rem;
+        padding:30px 20px;
+        margin-top: 20px;
+        margin-left: 280px;
+        color: #fff;
+    }
+    .first .firstimg .cent h1,p
+    {
+       margin-left: -100px;
+        font-size: 35px;
+    }
+    .first .firstimg .cent .a3
+    {
+        margin-left: -70px;
+    }
+    .first .firstimg .baronly .right_item .navitems,.first .firstimg .baronly .rigth .navitems
+    {
+        display: none;
+    }
+   
+     .first .firstimg .baronly .right_item .navit
+    {
+        display: none;
+        width: 100%;
+        font-size: 15px;
+        position: absolute;
+        border:1px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: rgb(228, 224, 224);
+        border-radius: 5px;
+        margin-left: -300px;
+        width: 70%;
+        height: 60%;
+        top: 10vh;
+    } 
+    .first .firstimg .baronly .right_item .fa-bars:hover
+    {
+        cursor: pointer;
+    }
+    .first .firstimg .baronly .right_item .navit li
+    {
+        display: flex;
+        margin: 5px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .first .firstimg .baronly .right_item .navit li a
+    {
+        font-size: 20px;
+        display: flex;
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+        color: rgb(64, 65, 65);
+    }
+    
+    .fa-chevron-up
+    {
+        color:hsl(356, 100%, 66%);
+        font-size: 11px;
+        padding-left: 190px;
+        margin-top: -50px;
+    }
+    .first .firstimg .baronly .right_item .navit .fa-chevron-down
+    {
+        color:hsl(356, 100%, 66%);
+        font-size: 11px;
+        padding-left: 190px;
+       margin-top: -19px;
+    }
+    .fa-times
+    {
+        padding-left: 220px;
+        padding-top: 10px;
+    }
+    .first .firstimg .baronly .right_item .navit .fa-chevron
+    {
+        margin-top: -15px;
+    }
+    .first .firstimg .baronly .right_item .navit .a1
+    {
+        border-top: 1px solid rgb(148, 151, 151);
+        font-family: monospace;
+        padding-top: 10px;
+
+    }
+
+    .first .firstimg .baronly .right_item .navit .gray
+    {
+        border: 1px solid rgb(241, 238, 238);
+        background-color: rgb(241, 238, 238);
+        width: 70%;
+        margin: auto;
+        font-size: 15px;
+        height: 30%;
+        text-align: center;
+    }
+    .first .firstimg .baronly .right_item .navit .gray p
+    {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .first .firstimg .baronly .right_item .navit .a2
+    {
+    border:1px solid hsl(0, 0%, 100%);
+border-radius: 20px;
+padding: 1px 0px;
+width: 80px;
+margin: auto;
+background-image: linear-gradient(to right ,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+font-weight: 300;
+color:hsl(0, 0%, 100%);
+    }
+   
+    .first .firstimg .baronly .right_item .navit .list1
+    {
+      color: rgb(64, 65, 65);
+      text-align: center;
+      margin-top: -3px;
+      margin-left: 10px;
+      font-size: 20px;
+     padding-bottom: 20px;
+     
+    }
+    .first .firstimg .baronly .right_item .navit.active
+    {
+        display: flex;
+    }
+    .sec h2
+    {
+        font-size: 25px;
+    }
+    .sec .flox
+    {
+      flex-direction: column;
+    }
+    .sec .flox .secimg
+    {
+        display: none;
+    }
+    .sec .flox .secimgm
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sec .flox .klam
+    {
+        flex-direction: column;
+        width: 100%;
+      text-align: center;
+      padding-left: 3px;
+    }
+    .sec .flox .klam p
+    {
+        color: rgb(68, 67, 67);
+        font-size: 20px;
+        padding: 0px 40px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .third
+    {
+        flex-direction: column;
+        height: 700px;
+        border-radius: 0px 160px 0px 160px;
+        width: 100%;
+    }
+    .third .koob
+    {
+        display: none;
+    }
+    .third .koob2
+    {
+        display: block;
+        width: 60%;
+        margin-left: -330px;
+        margin-top: 356px;
+        margin-bottom: -450px;
+    }
+    .third .flox2 .thirdimg img
+    {
+        width: 400px;
+        height: 500px;
+       
+    }
+    .third .flox2 .thirdimg
+    {
+         margin-left: -120px; 
+         width: 100%;
+         margin-top: -200px;
+    }
+    .third .flox2 .klam2
+    {
+        text-align: center;
+        margin-left: -210px; 
+        margin-top: -50px;
+        font-size: 25px;
+        width: 100%;
+    }
+    .third .flox2 .klam2 p
+    {
+        font-size: 23px;
+    }
+    .third .flox2 .klam2 h2
+    {
+        margin-top: -120px;
+        margin-left: -100px;
+        font-size: 35px;
+    }
+    .four .flox3
+    {
+      flex-direction: column;
+    }
+    .four .flox3 .fourimg2
+    {
+        display: none;
+    }
+    .four .flox3 .fourimg1
+    {
+        display: block;
+        /* margin-left: -10px; */
+    }
+    .four .flox3 .fourimg2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .four .flox3 .klam3 h4
+    {
+        margin-left: -80px;
+    }
+    .four .flox3 .klam3
+    {
+        flex-direction: column;
+        width: 70%;
+        color: rgb(73, 72, 72);
+      text-align: center;
+      margin-left: -60px;
+      margin-top: -300px;
+    }
+    .four .flox3 .klam3 p
+    {
+        color: rgb(59, 58, 58);
+        font-size: 20px;
+        padding: 0px 40px;
+        text-align: center;
+
+    }
+     .footer
+    {
+        height: 700px;
+        
+    }
+    .footer h2
+    {
+        margin-right: -80px;
+        padding-bottom: 10px;
+
+    }
+    .footer .bigfooter
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .bigfooter .ul1
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: -550px;
+        text-align: center;
+        margin-bottom: -10px;
+        
+    }
+    .footer .bigfooter .ul1 li a
+    {
+        margin-bottom:70px ;
+        margin-left: 150px;
+        line-height: 50px;
+    }
+    .footer .bigfooter .foot1
+    {
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .footer .bigfooter .ul1 li
+    {
+        margin-bottom: -5px;
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+    .footer .bigfooter .ul2
+    {
+        margin-top: -360px;
+        margin-bottom: -280px;
+        margin-left: -225px;
+        text-align: center;
+    }
+    .footer .bigfooter .ul2 li a,.footer .bigfooter .ul3 li a,.footer .bigfooter .ul4 li a
+    {
+        line-height: 20px;
+    }
+    .footer .bigfooter .ul3
+    {
+        margin-top:300px;
+        margin-left: -50px;
+       
+    }
+    .footer .bigfooter .ul3 li
+    {
+        margin-left: -130px;
+
+    }
+    .footer .bigfooter .ul4
+    {
+        margin-top: 50px; 
+        margin-left: -30px;
+    }
+    .footer .bigfooter .ul4 li
+    {
+        /* margin-top: 50px; */
+        margin-left: -150px;
+    }
+    
+
+  
+  
+
+
+
+}
